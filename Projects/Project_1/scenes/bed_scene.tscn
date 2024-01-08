@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://15bhk37tx7jw"]
+
+[ext_resource type="Texture2D" uid="uid://b812sdjd5bqki" path="res://assets/Shooter 2 scenes and nodes/graphics/objects/bed.png" id="1_n4o5v"]
+[ext_resource type="Texture2D" uid="uid://bu8y0g26e67ms" path="res://assets/Shooter 2 scenes and nodes/graphics/objects/pillow_small.png" id="2_qwbll"]
+
+[node name="BedScene" type="Node2D"]
+
+[node name="Bed" type="Sprite2D" parent="."]
+position = Vector2(488, 260)
+texture = ExtResource("1_n4o5v")
+
+[node name="Pillow" type="Sprite2D" parent="Bed"]
+position = Vector2(258, -4.99998)
+scale = Vector2(0.92963, 1)
+texture = ExtResource("2_qwbll")
+
+[node name="Pillow2" type="Sprite2D" parent="Bed"]
+position = Vector2(94, 127)
+rotation = -1.55509
+scale = Vector2(0.92963, 1)
+texture = ExtResource("2_qwbll")
+
+[node name="Pillow3" type="Sprite2D" parent="Bed"]
+position = Vector2(196, -31)
+scale = Vector2(0.92963, 1)
+texture = ExtResource("2_qwbll")

@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://c5q4t5hr4y6dp"]
+
+[ext_resource type="Texture2D" uid="uid://2n5mfldwcme8" path="res://assets/Shooter 2 scenes and nodes/graphics/player/player.png" id="1_xpgse"]
+[ext_resource type="Texture2D" uid="uid://bcokuscsiyw72" path="res://assets/Shooter 2 scenes and nodes/graphics/projectiles/blue.png" id="2_dmhmn"]
+[ext_resource type="PackedScene" uid="uid://15bhk37tx7jw" path="res://scenes/bed_scene.tscn" id="3_qk0rk"]
+
+[node name="Level" type="Node2D"]
+
+[node name="Player" type="Sprite2D" parent="."]
+position = Vector2(165, 387)
+texture = ExtResource("1_xpgse")
+
+[node name="Laser" type="Sprite2D" parent="Player"]
+position = Vector2(18, -226)
+texture = ExtResource("2_dmhmn")
+
+[node name="BedScene" parent="." instance=ExtResource("3_qk0rk")]
+position = Vector2(334, -45)

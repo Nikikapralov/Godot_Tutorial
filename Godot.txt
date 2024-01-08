@@ -1,0 +1,18 @@
+Godot Tutorial:
+
+WHAT IS VISIBLE TO THE PLAYER:
+The blue rectangle is everything that the player sees. You cannot make it bigger,
+you can only zoom inside of it.
+
+SCENES:
+A Scene is something very important for Godot. A game is made up of several scenes that
+are triggered to appear or do something in an event. Scenes are basically modules.
+
+NODES:
+Nodes are basically classes. They can have parents and children and inheritance is fully
+implemented. There is an extensive list of preconfigured nodes one can use. Nodes are 
+representations of ingame entities and their behaviour.
+
+SCENE INSIDE A SCENE:
+We can import a scene into another scene. That allows us to develop a game using different
+scenes (modules) and then connect them together.
